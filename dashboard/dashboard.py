@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Memuat data
-day_df = pd.read_csv('all_data (1).csv')
+day_df = pd.read_csv("dashboard/all_data (1).csv")
 
 # Judul aplikasi
 st.title("Analisis Penyewaan Sepeda Berdasarkan Cuaca dan Tahun 2012")
